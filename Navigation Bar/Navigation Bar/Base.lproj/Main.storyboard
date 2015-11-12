@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Navigation_Bar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3a0-bi-AEO">
+                                <rect key="frame" x="0.0" y="44" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="GhK-UG-tP5"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Navigation Bars" id="XWe-cj-1L0">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="camera" id="DKI-Xf-X0r"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="rewind" id="hMm-J4-gNf">
+                                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c3C-Ci-EFy">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="fzd-Yy-jUj"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Item" systemItem="organize" id="ZfS-UG-CTO"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="znq-Br-yUZ"/>
+                                    <barButtonItem systemItem="bookmarks" id="y4b-iO-1Vh"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="zsf-Uw-Tgz"/>
+                                    <barButtonItem systemItem="stop" id="uFI-e6-ynb"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="c3C-Ci-EFy" secondAttribute="bottom" id="FEd-Zz-LdC"/>
+                            <constraint firstItem="3a0-bi-AEO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Ic9-UB-6Lo"/>
+                            <constraint firstItem="c3C-Ci-EFy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="bpI-4u-iCq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3a0-bi-AEO" secondAttribute="trailing" constant="-20" id="fWb-KT-eA1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="c3C-Ci-EFy" secondAttribute="trailing" constant="-20" id="gkC-3I-JwZ"/>
+                            <constraint firstItem="3a0-bi-AEO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="wGL-eD-BUq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="m8v-Bx-Rfa">
+            <objects>
+                <viewController id="dcs-GS-phN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iST-xm-nBB"/>
+                        <viewControllerLayoutGuide type="bottom" id="PA3-tt-oka"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dMc-QH-fBC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q7F-Uo-KmP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

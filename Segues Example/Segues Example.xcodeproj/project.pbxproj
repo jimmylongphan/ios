@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D5365201BE205E1002437CA /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D53651F1BE205E1002437CA /* cat.png */; };
-		6DAE590B1BDF55CC0071B29B /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DAE590A1BDF55CC0071B29B /* cat.png */; };
-		6DD018811BDDD999001CED5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD018801BDDD999001CED5A /* AppDelegate.swift */; };
-		6DD018831BDDD999001CED5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD018821BDDD999001CED5A /* ViewController.swift */; };
-		6DD018861BDDD999001CED5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD018841BDDD999001CED5A /* Main.storyboard */; };
-		6DD018881BDDD999001CED5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD018871BDDD999001CED5A /* Assets.xcassets */; };
-		6DD0188B1BDDD999001CED5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD018891BDDD999001CED5A /* LaunchScreen.storyboard */; };
+		6DC7A0281BEB5AF10052ECE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC7A0271BEB5AF10052ECE8 /* AppDelegate.swift */; };
+		6DC7A02A1BEB5AF10052ECE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC7A0291BEB5AF10052ECE8 /* ViewController.swift */; };
+		6DC7A02D1BEB5AF10052ECE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC7A02B1BEB5AF10052ECE8 /* Main.storyboard */; };
+		6DC7A02F1BEB5AF10052ECE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC7A02E1BEB5AF10052ECE8 /* Assets.xcassets */; };
+		6DC7A0321BEB5AF10052ECE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC7A0301BEB5AF10052ECE8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6D53651F1BE205E1002437CA /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
-		6DAE590A1BDF55CC0071B29B /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
-		6DD0187D1BDDD999001CED5A /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DD018801BDDD999001CED5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6DD018821BDDD999001CED5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6DD018851BDDD999001CED5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6DD018871BDDD999001CED5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6DD0188A1BDDD999001CED5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6DD0188C1BDDD999001CED5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC7A0241BEB5AF10052ECE8 /* Segues Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Segues Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC7A0271BEB5AF10052ECE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DC7A0291BEB5AF10052ECE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DC7A02C1BEB5AF10052ECE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DC7A02E1BEB5AF10052ECE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DC7A0311BEB5AF10052ECE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DC7A0331BEB5AF10052ECE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6DD0187A1BDDD999001CED5A /* Frameworks */ = {
+		6DC7A0211BEB5AF10052ECE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6DD018741BDDD999001CED5A = {
+		6DC7A01B1BEB5AF10052ECE8 = {
 			isa = PBXGroup;
 			children = (
-				6DD0187F1BDDD999001CED5A /* Hello World */,
-				6DD0187E1BDDD999001CED5A /* Products */,
-				6D53651F1BE205E1002437CA /* cat.png */,
+				6DC7A0261BEB5AF10052ECE8 /* Segues Example */,
+				6DC7A0251BEB5AF10052ECE8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6DD0187E1BDDD999001CED5A /* Products */ = {
+		6DC7A0251BEB5AF10052ECE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DD0187D1BDDD999001CED5A /* Hello World.app */,
+				6DC7A0241BEB5AF10052ECE8 /* Segues Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6DD0187F1BDDD999001CED5A /* Hello World */ = {
+		6DC7A0261BEB5AF10052ECE8 /* Segues Example */ = {
 			isa = PBXGroup;
 			children = (
-				6DD018801BDDD999001CED5A /* AppDelegate.swift */,
-				6DD018821BDDD999001CED5A /* ViewController.swift */,
-				6DD018841BDDD999001CED5A /* Main.storyboard */,
-				6DAE590A1BDF55CC0071B29B /* cat.png */,
-				6DD018871BDDD999001CED5A /* Assets.xcassets */,
-				6DD018891BDDD999001CED5A /* LaunchScreen.storyboard */,
-				6DD0188C1BDDD999001CED5A /* Info.plist */,
+				6DC7A0271BEB5AF10052ECE8 /* AppDelegate.swift */,
+				6DC7A0291BEB5AF10052ECE8 /* ViewController.swift */,
+				6DC7A02B1BEB5AF10052ECE8 /* Main.storyboard */,
+				6DC7A02E1BEB5AF10052ECE8 /* Assets.xcassets */,
+				6DC7A0301BEB5AF10052ECE8 /* LaunchScreen.storyboard */,
+				6DC7A0331BEB5AF10052ECE8 /* Info.plist */,
 			);
-			path = "Hello World";
+			path = "Segues Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DD0187C1BDDD999001CED5A /* Hello World */ = {
+		6DC7A0231BEB5AF10052ECE8 /* Segues Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DD0188F1BDDD999001CED5A /* Build configuration list for PBXNativeTarget "Hello World" */;
+			buildConfigurationList = 6DC7A0361BEB5AF10052ECE8 /* Build configuration list for PBXNativeTarget "Segues Example" */;
 			buildPhases = (
-				6DD018791BDDD999001CED5A /* Sources */,
-				6DD0187A1BDDD999001CED5A /* Frameworks */,
-				6DD0187B1BDDD999001CED5A /* Resources */,
+				6DC7A0201BEB5AF10052ECE8 /* Sources */,
+				6DC7A0211BEB5AF10052ECE8 /* Frameworks */,
+				6DC7A0221BEB5AF10052ECE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Hello World";
-			productName = "Hello World";
-			productReference = 6DD0187D1BDDD999001CED5A /* Hello World.app */;
+			name = "Segues Example";
+			productName = "Segues Example";
+			productReference = 6DC7A0241BEB5AF10052ECE8 /* Segues Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6DD018751BDDD999001CED5A /* Project object */ = {
+		6DC7A01C1BEB5AF10052ECE8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = udemy;
 				TargetAttributes = {
-					6DD0187C1BDDD999001CED5A = {
+					6DC7A0231BEB5AF10052ECE8 = {
 						CreatedOnToolsVersion = 7.1;
 					};
 				};
 			};
-			buildConfigurationList = 6DD018781BDDD999001CED5A /* Build configuration list for PBXProject "Hello World" */;
+			buildConfigurationList = 6DC7A01F1BEB5AF10052ECE8 /* Build configuration list for PBXProject "Segues Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,56 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 6DD018741BDDD999001CED5A;
-			productRefGroup = 6DD0187E1BDDD999001CED5A /* Products */;
+			mainGroup = 6DC7A01B1BEB5AF10052ECE8;
+			productRefGroup = 6DC7A0251BEB5AF10052ECE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DD0187C1BDDD999001CED5A /* Hello World */,
+				6DC7A0231BEB5AF10052ECE8 /* Segues Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6DD0187B1BDDD999001CED5A /* Resources */ = {
+		6DC7A0221BEB5AF10052ECE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D5365201BE205E1002437CA /* cat.png in Resources */,
-				6DD0188B1BDDD999001CED5A /* LaunchScreen.storyboard in Resources */,
-				6DD018881BDDD999001CED5A /* Assets.xcassets in Resources */,
-				6DAE590B1BDF55CC0071B29B /* cat.png in Resources */,
-				6DD018861BDDD999001CED5A /* Main.storyboard in Resources */,
+				6DC7A0321BEB5AF10052ECE8 /* LaunchScreen.storyboard in Resources */,
+				6DC7A02F1BEB5AF10052ECE8 /* Assets.xcassets in Resources */,
+				6DC7A02D1BEB5AF10052ECE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6DD018791BDDD999001CED5A /* Sources */ = {
+		6DC7A0201BEB5AF10052ECE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DD018831BDDD999001CED5A /* ViewController.swift in Sources */,
-				6DD018811BDDD999001CED5A /* AppDelegate.swift in Sources */,
+				6DC7A02A1BEB5AF10052ECE8 /* ViewController.swift in Sources */,
+				6DC7A0281BEB5AF10052ECE8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6DD018841BDDD999001CED5A /* Main.storyboard */ = {
+		6DC7A02B1BEB5AF10052ECE8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6DD018851BDDD999001CED5A /* Base */,
+				6DC7A02C1BEB5AF10052ECE8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6DD018891BDDD999001CED5A /* LaunchScreen.storyboard */ = {
+		6DC7A0301BEB5AF10052ECE8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6DD0188A1BDDD999001CED5A /* Base */,
+				6DC7A0311BEB5AF10052ECE8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6DD0188D1BDDD999001CED5A /* Debug */ = {
+		6DC7A0341BEB5AF10052ECE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		6DD0188E1BDDD999001CED5A /* Release */ = {
+		6DC7A0351BEB5AF10052ECE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,26 +243,24 @@
 			};
 			name = Release;
 		};
-		6DD018901BDDD999001CED5A /* Debug */ = {
+		6DC7A0371BEB5AF10052ECE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Hello World/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				INFOPLIST_FILE = "Segues Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.udemy.Hello-World";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udemy.Segues-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		6DD018911BDDD999001CED5A /* Release */ = {
+		6DC7A0381BEB5AF10052ECE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Hello World/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				INFOPLIST_FILE = "Segues Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.udemy.Hello-World";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udemy.Segues-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -278,25 +268,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DD018781BDDD999001CED5A /* Build configuration list for PBXProject "Hello World" */ = {
+		6DC7A01F1BEB5AF10052ECE8 /* Build configuration list for PBXProject "Segues Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DD0188D1BDDD999001CED5A /* Debug */,
-				6DD0188E1BDDD999001CED5A /* Release */,
+				6DC7A0341BEB5AF10052ECE8 /* Debug */,
+				6DC7A0351BEB5AF10052ECE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DD0188F1BDDD999001CED5A /* Build configuration list for PBXNativeTarget "Hello World" */ = {
+		6DC7A0361BEB5AF10052ECE8 /* Build configuration list for PBXNativeTarget "Segues Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DD018901BDDD999001CED5A /* Debug */,
-				6DD018911BDDD999001CED5A /* Release */,
+				6DC7A0371BEB5AF10052ECE8 /* Debug */,
+				6DC7A0381BEB5AF10052ECE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6DD018751BDDD999001CED5A /* Project object */;
+	rootObject = 6DC7A01C1BEB5AF10052ECE8 /* Project object */;
 }
